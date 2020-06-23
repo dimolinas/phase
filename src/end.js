@@ -7,7 +7,7 @@ var end  = new Phaser.Class({/* instancio objeto que hereda de escenas de phaser
     },
     preload:function(){
         /* Funcion para cargar el cache */
-        this.load.image('win','../resources/win.png');/* Cargo la imagen del  trofeo  */
+        this.load.image('win','resources/win.png');/* Cargo la imagen del  trofeo  */
     },
     create:function(){
         /* Funcion para mostar en pantalla */
